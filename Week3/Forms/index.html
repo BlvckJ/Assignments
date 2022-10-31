@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-style-10">
+        <h1>Sign Up Now!<span>Sign up and tell us what you think of the site!</span></h1>
+        <form action="login.html">
+            <div class="section"><span>1</span>Your Full Name & Address</div>
+            <div class="inner-wrap">
+                <label>Firstname <input type="text" name="field1" placeholder="First name" maxlength="20" minlength="2" required /></label>
+                <label>Lastname <input type='text' name="field2"  placeholder="Last Name"maxlength="20" minlength="2" required></input></label>
+            </div>
+
+            <div class="section"><span>2</span>Email & Phone</div>
+            <div class="inner-wrap">
+                <label>Email Address <input type="email" name="field3" placeholder="Email" name="email" required /></label>
+                <label>Phone Number <input type="tel" name="Phone No" placeholder="123-45678-999" pattern="[0-9]{3}-[0-9]{5}-[0-9]{3}" required></label>
+            </div>
+
+            <div class="section"><span>3</span>Date of Birth & Favorite Color</div>
+            <div class="inner-wrap">
+                <label>Date Of Birth <input type="date" name="field5" required /></label>
+                <label>Favorite Color <input type="color" name="field6" /></label>
+            </div>
+            <div class="section"><span>4</span>Gender</div>
+            <div class="inner-wrap">
+                <label>Select Your Gender:
+                <select name="Gender" id="" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Prefer Not To Say">Prefer Not To Say</option>
+                </select></label>
+            </div>
+
+            <div class="button-section">
+                <input type="submit" name="Sign Up" />
+                <span class="privacy-policy">
+                    <input type="checkbox" name="field7">You agree to our Terms and Policy.
+                </span>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

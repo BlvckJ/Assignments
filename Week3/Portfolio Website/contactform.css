@@ -1,0 +1,18 @@
+body{
+    border: 2px solid gold;
+    padding: 10px;
+}
+
+header{
+    background-color: beige;
+    border-style: double;
+}
+footer{
+    background-color: beige;
+    border-style: double;
+    text-indent: 10px;
+}
+.submit4{
+    text-indent: 25%;
+}
+
