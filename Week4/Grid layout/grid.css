@@ -5,6 +5,7 @@
     grid-gap: 13px;
     padding: 100px;
     background-color: beige;
+    max-width: 100%;
    /* background-color: rgb(1, 1, 32);*/
 }
 .griditem1{
@@ -39,5 +40,9 @@
 body{
    /* border: 0px solid rgb(1, 1, 32);*/
    border: 0px solid white;
-    margin: 250px;
+   padding-left: 200px;
+    margin: 70px;
+    max-width: fit-content;
+    
+    
 }
