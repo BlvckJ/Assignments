@@ -97,17 +97,9 @@ nav {
 .nav-links li a.active {
   background-color: #4caf50;
 }
-/**{
-  margin: 0px;
-
-  padding: 0px;
-
-  box-sizing: border-box;
-}*/
-
-@media screen and (max-width:560px){
+@media screen and (max-width:1000px){
   .nav-links{
-    none;
+    display:none;
   }
   
 }
